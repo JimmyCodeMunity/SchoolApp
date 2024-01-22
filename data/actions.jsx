@@ -1,0 +1,32 @@
+export const actions = [
+    {
+        id:'1',
+        actionName:'Fee',
+        image:require('../assets/money.png'),
+        navigateto:'Fee',
+    },
+    {
+        id:'2',
+        actionName:'Calender',
+        image:require('../assets/calendar.png'),
+        navigateto:'Calender',
+    },
+    {
+        id:'3',
+        actionName:'Results',
+        image:require('../assets/evaluation.png'),
+        navigateto:'Results',
+    },
+    {
+        id:'4',
+        actionName:'Library',
+        image:require('../assets/library.png'),
+        navigateto:'Library',
+    },
+    {
+        id:'5',
+        actionName:'KidsCorner',
+        image:require('../assets/kidscorner.png'),
+        navigateto:'Kids',
+    },
+]

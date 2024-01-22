@@ -1,13 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Navigation from './navigation/Navigation'
 
-const App = () => {
+const ResulltScreen = () => {
   return (
-    <Navigation/>
+    <View>
+      <Text>ResulltScreen</Text>
+    </View>
   )
 }
 
-export default App
+export default ResulltScreen
 
 const styles = StyleSheet.create({})

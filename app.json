@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "Mogadishu",
-    "slug": "Mogadishu",
-    "version": "1.0.0",
+    "name": "TangaraSchool",
+    "slug": "TangaraSchool",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash.PNG",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,24 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.codemunity.TangaraSchool"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "23b4d411-f1a4-433e-9dd3-cd8cd885ea43"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/23b4d411-f1a4-433e-9dd3-cd8cd885ea43"
     }
   }
 }
